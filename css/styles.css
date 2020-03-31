@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../assets/img/bg.jpeg');
+  font-family: 'Comic Neue', cursive;
+  color: #fff;
+}
+
+.information {
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  /* background-color: #659dbd; */
+  /* padding: 20px; */
+}
+
+.heading {
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.heading-secondary {
+  margin-bottom: 5px;
+}
+
+.info__list {
+  /* list-style: none; */
+}

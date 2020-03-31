@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car game</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="information">
+        <h1 class="heading">
+          car race
+        </h1>
+        <ul class="info__list">
+          <h2 class="heading-secondary">Controls</h2>
+          <li class="info__item">Press F to play or restart the game</li>
+          <li class="info__item">Pres W or S to increase or decrease gear</li>
+          <li class="info__item">Pres A or D to toggle move right or left</li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="js/constants/global.js"></script>
+    <script src="js/constants/constant.js"></script>
+    <script src="js/component/road.js"></script>
+    <script src="js/component/car.js"></script>
+    <script src="js/component/obstacles.js"></script>
+    <script src="js/utils/collision.js"></script>
+    <script src="js/utils/score.js"></script>
+    <script src="js/utils/menu.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
