@@ -75,10 +75,37 @@ class Game {
         )
       ) {
         this.endGame();
-        console.log('hello');
+
         cancelAnimationFrame(this.runAnimation);
         return;
       }
+    }
+
+    if (
+      collision(
+        this.car.y,
+        this.car.x,
+        this.car.width,
+        this.car.height,
+        0,
+        0,
+        4,
+        600
+      ) ||
+      collision(
+        this.car.y,
+        this.car.x,
+        this.car.width,
+        this.car.height,
+        0,
+        240 - 4,
+        1,
+        600
+      )
+    ) {
+      this.endGame();
+      cancelAnimationFrame(this.runAnimation);
+      return;
     }
 
     this.obstacleCounter++;
